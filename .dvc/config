@@ -1,4 +1,5 @@
 [core]
     remote = dagshub
-['remote "dagshub"']
-    url = https://dagshub.com/hleconte.dicom/examen-dvc-leconte.dvc
+
+[remote "dagshub"]
+    url = https://dagshub.com/hleconte.dicom/examen-dvc.dvc
