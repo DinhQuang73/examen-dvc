@@ -1,2 +1,14 @@
-/venv
-/clean_data.csv
+# Ignorer les données brutes et traitées, sauf les fichiers .dvc
+/data/raw/*
+!/data/raw/*.dvc
+
+/data/processed/*
+!/data/processed/*.dvc
+
+# Ignorer les modèles sauf les fichiers .dvc
+/models/*
+!/models/*.dvc
+
+# Ignorer les métriques sauf les fichiers .dvc
+/metrics/*
+!/metrics/*.dvc
